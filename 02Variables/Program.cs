@@ -76,32 +76,58 @@ namespace _02Variables
             #endregion
 
             #region Data input from the keyboard
-            Console.WriteLine("***** Passenger Information ******");
+            //Console.WriteLine("***** Passenger Information ******");
+            //Console.WriteLine();
+
+            //string passengerName, passengerSurname, passengerDistricht, passengerCity, passengerAge, passengerIdentityNumber;
+            //Console.Write("Enter your name: ");
+            //passengerName = Console.ReadLine();
+            //Console.Write("Enter your surname: ");
+            //passengerSurname = Console.ReadLine();
+            //Console.Write("Enter your districht: ");
+            //passengerDistricht = Console.ReadLine();
+            //Console.Write("Enter your city: ");
+            //passengerCity = Console.ReadLine();
+            //Console.Write("Enter your age: ");
+            //passengerAge = Console.ReadLine();
+            //Console.Write("Enter your identity number: ");
+            //passengerIdentityNumber = Console.ReadLine();
+            //Console.WriteLine();
+
+
+            //Console.WriteLine("-------------------------------");
+            //Console.WriteLine("Passenger: " + passengerName + " " + passengerSurname + " " + passengerDistricht + " " + passengerCity + " " + passengerAge, " " + passengerIdentityNumber) ;
+            //passengerIdentityNumber = Console.ReadLine();
+
+
+            #endregion
+
+            #region int keybord input
+
+            //ABC12D
+            int shoePrice, computerPrice, phonePrice, tvPrice;
+            shoePrice = 150;
+            computerPrice = 2500;
+            phonePrice = 1500;
+            tvPrice = 5000;
+
+            int shoeCount, computerCount, phoneCount, tvCount;
+
+            Console.WriteLine("***** Product List ******");
             Console.WriteLine();
+            Console.Write("Please enter the number of shoes you have purchased: ");
+            shoeCount = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Please enter the number of computers you have purchased: ");
+            computerCount = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Please enter the number of phones you have purchased: ");
+            phoneCount = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Please enter the number of TVs you have purchased: ");
+            tvCount = Convert.ToInt32(Console.ReadLine());
             
-            string passengerName, passengerSurname, passengerDistricht, passengerCity, passengerAge, passengerIdentityNumber;
-            Console.Write("Enter your name: ");
-            passengerName = Console.ReadLine();
-            Console.Write("Enter your surname: ");
-            passengerSurname = Console.ReadLine();
-            Console.Write("Enter your districht: ");
-            passengerDistricht = Console.ReadLine();
-            Console.Write("Enter your city: ");
-            passengerCity = Console.ReadLine();
-            Console.Write("Enter your age: ");
-            passengerAge = Console.ReadLine();
-            Console.Write("Enter your identity number: ");
-            passengerIdentityNumber = Console.ReadLine();
+            int totalPrice = (shoePrice * shoeCount) + (computerPrice * computerCount) + (phonePrice * phoneCount) + (tvPrice * tvCount);
             Console.WriteLine();
 
-
-            Console.WriteLine("-------------------------------");
-            Console.WriteLine("Passenger: " + passengerName + " " + passengerSurname + " " + passengerDistricht + " " + passengerCity + " " + passengerAge, " " + passengerIdentityNumber) ;
-            passengerIdentityNumber = Console.ReadLine();
-
-
-
-
+            Console.WriteLine("Total Price: " + totalPrice + " CH");
 
 
             #endregion
