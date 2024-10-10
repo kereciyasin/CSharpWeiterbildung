@@ -12,6 +12,7 @@ namespace _01_MainSubjects
     {
         static void Main(string[] args)
         {
+            #region Comment
             //Console.WriteLine("Hello World!");
             //Console.Write("Hello Leute!");
             //Console.WriteLine("Hello World!");  
@@ -24,6 +25,7 @@ namespace _01_MainSubjects
             //Console.WriteLine("4.C++");
             //Console.WriteLine("5.Html/Css");
             //Console.WriteLine("6.Java");
+            #endregion
 
             #region String Variables
 
@@ -62,7 +64,6 @@ namespace _01_MainSubjects
 
 
             #endregion
-
 
             #region Int Variables
 
@@ -132,6 +133,9 @@ namespace _01_MainSubjects
 
 
             #endregion
+
+
+
             Console.ReadLine();
         }
     }
