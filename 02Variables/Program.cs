@@ -43,7 +43,7 @@ namespace _02Variables
             //orangeKg = 4.5;
             //watermelonKg = 5.5;
             //melonKg = 6.5;
-            
+
             //double appleTotal, bananaTotal, orangeTotal, watermelonTotal, melonTotal;
             //appleTotal = applePrice * appleKg;
             //bananaTotal = bananaPrice * bananaKg;
@@ -51,7 +51,7 @@ namespace _02Variables
             //watermelonTotal = watermelonPrice * watermelonKg;
             //melonTotal = melonPrice * melonKg;
 
-            
+
             //Console.WriteLine("Product Received: Apple - " + "Price: " + applePrice + " - Kg " + appleKg + " - Total: " + appleTotal);
             //Console.WriteLine("Product Received: Banana - " + "Price: " + bananaPrice + " - Kg " + bananaKg + " - Total: " + bananaTotal);
             //Console.WriteLine("Product Received: Orange - " + "Price: " + orangePrice + " - Kg " + orangeKg + " - Total: " + orangeTotal);
@@ -67,9 +67,40 @@ namespace _02Variables
 
             #region char
 
-            char symbol;
-            symbol = 'A';
-            Console.WriteLine(symbol);
+            //char symbol;
+            //symbol = 'A';
+            //Console.WriteLine(symbol);
+
+
+
+            #endregion
+
+            #region Data input from the keyboard
+            Console.WriteLine("***** Passenger Information ******");
+            Console.WriteLine();
+            
+            string passengerName, passengerSurname, passengerDistricht, passengerCity, passengerAge, passengerIdentityNumber;
+            Console.Write("Enter your name: ");
+            passengerName = Console.ReadLine();
+            Console.Write("Enter your surname: ");
+            passengerSurname = Console.ReadLine();
+            Console.Write("Enter your districht: ");
+            passengerDistricht = Console.ReadLine();
+            Console.Write("Enter your city: ");
+            passengerCity = Console.ReadLine();
+            Console.Write("Enter your age: ");
+            passengerAge = Console.ReadLine();
+            Console.Write("Enter your identity number: ");
+            passengerIdentityNumber = Console.ReadLine();
+            Console.WriteLine();
+
+
+            Console.WriteLine("-------------------------------");
+            Console.WriteLine("Passenger: " + passengerName + " " + passengerSurname + " " + passengerDistricht + " " + passengerCity + " " + passengerAge, " " + passengerIdentityNumber) ;
+            passengerIdentityNumber = Console.ReadLine();
+
+
+
 
 
 
