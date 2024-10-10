@@ -123,7 +123,7 @@ namespace _02Variables
             //phoneCount = Convert.ToInt32(Console.ReadLine());
             //Console.Write("Please enter the number of TVs you have purchased: ");
             //tvCount = Convert.ToInt32(Console.ReadLine());
-            
+
             //int totalPrice = (shoePrice * shoeCount) + (computerPrice * computerCount) + (phonePrice * phoneCount) + (tvPrice * tvCount);
             //Console.WriteLine();
 
@@ -140,9 +140,21 @@ namespace _02Variables
             //exam2 = double.Parse(Console.ReadLine());
             //Console.Write("Enter the third exam result: ");
             //exam3 = double.Parse(Console.ReadLine());
-                        
+
             //result = (exam1 + exam2 + exam3) / 3;
             //Console.WriteLine("Result: " + result);
+
+
+
+            #endregion
+
+            #region char keybord input
+            
+            char gender;
+            Console.Write("Enter your Gender: ");
+            gender = char.Parse(Console.ReadLine());    
+            Console.Write(gender);
+
 
 
 
