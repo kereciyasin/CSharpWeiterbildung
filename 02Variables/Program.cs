@@ -105,29 +105,45 @@ namespace _02Variables
             #region int keybord input
 
             //ABC12D
-            int shoePrice, computerPrice, phonePrice, tvPrice;
-            shoePrice = 150;
-            computerPrice = 2500;
-            phonePrice = 1500;
-            tvPrice = 5000;
+            //int shoePrice, computerPrice, phonePrice, tvPrice;
+            //shoePrice = 150;
+            //computerPrice = 2500;
+            //phonePrice = 1500;
+            //tvPrice = 5000;
 
-            int shoeCount, computerCount, phoneCount, tvCount;
+            //int shoeCount, computerCount, phoneCount, tvCount;
 
-            Console.WriteLine("***** Product List ******");
-            Console.WriteLine();
-            Console.Write("Please enter the number of shoes you have purchased: ");
-            shoeCount = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Please enter the number of computers you have purchased: ");
-            computerCount = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Please enter the number of phones you have purchased: ");
-            phoneCount = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Please enter the number of TVs you have purchased: ");
-            tvCount = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("***** Product List ******");
+            //Console.WriteLine();
+            //Console.Write("Please enter the number of shoes you have purchased: ");
+            //shoeCount = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Please enter the number of computers you have purchased: ");
+            //computerCount = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Please enter the number of phones you have purchased: ");
+            //phoneCount = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Please enter the number of TVs you have purchased: ");
+            //tvCount = Convert.ToInt32(Console.ReadLine());
             
-            int totalPrice = (shoePrice * shoeCount) + (computerPrice * computerCount) + (phonePrice * phoneCount) + (tvPrice * tvCount);
-            Console.WriteLine();
+            //int totalPrice = (shoePrice * shoeCount) + (computerPrice * computerCount) + (phonePrice * phoneCount) + (tvPrice * tvCount);
+            //Console.WriteLine();
 
-            Console.WriteLine("Total Price: " + totalPrice + " CH");
+            //Console.WriteLine("Total Price: " + totalPrice + " CH");
+
+
+            #endregion
+
+            #region double keybord input
+            //double exam1, exam2, exam3, result;
+            //Console.Write("Enter the first exam result: ");
+            //exam1 = double.Parse(Console.ReadLine());
+            //Console.Write("Enter the second exam result: ");
+            //exam2 = double.Parse(Console.ReadLine());
+            //Console.Write("Enter the third exam result: ");
+            //exam3 = double.Parse(Console.ReadLine());
+                        
+            //result = (exam1 + exam2 + exam3) / 3;
+            //Console.WriteLine("Result: " + result);
+
 
 
             #endregion
