@@ -17,21 +17,59 @@ namespace _02Variables
             //number = 4.85;
             //Console.WriteLine(number);
 
-            Console.WriteLine("***** Price List ******");
-            Console.WriteLine();
+            //Console.WriteLine("***** Price List ******");
+            //Console.WriteLine();
 
-            double applePrice, bananaPrice, orangePrice, watermelonPrice, melonPrice;
-            applePrice = 4.85;
-            bananaPrice = 3.45;
-            orangePrice = 2.65;
-            watermelonPrice = 5.25;
-            melonPrice = 6.75;
+            //double applePrice, bananaPrice, orangePrice, watermelonPrice, melonPrice;
+            //applePrice = 4.85;
+            //bananaPrice = 3.45;
+            //orangePrice = 2.65;
+            //watermelonPrice = 5.25;
+            //melonPrice = 6.75;
 
-            Console.WriteLine("-----Apple Price: " + applePrice);
-            Console.WriteLine("-----Banana Price: " + bananaPrice);
-            Console.WriteLine("-----Orange Price: " + orangePrice);
-            Console.WriteLine("-----Watermelon Price: " + watermelonPrice);
-            Console.WriteLine("-----Melon Price: " + melonPrice);
+            //Console.WriteLine("-----Apple Price: " + applePrice + " CH");
+            //Console.WriteLine("-----Banana Price: " + bananaPrice + " CH");
+            //Console.WriteLine("-----Orange Price: " + orangePrice + " CH");
+            //Console.WriteLine("-----Watermelon Price: " + watermelonPrice + " CH");
+            //Console.WriteLine("-----Melon Price: " + melonPrice + "  CH");
+
+            //Console.WriteLine();
+            //Console.WriteLine();
+
+
+            //double appleKg, bananaKg, orangeKg, watermelonKg, melonKg;
+            //appleKg = 2.5;
+            //bananaKg = 3.5;
+            //orangeKg = 4.5;
+            //watermelonKg = 5.5;
+            //melonKg = 6.5;
+            
+            //double appleTotal, bananaTotal, orangeTotal, watermelonTotal, melonTotal;
+            //appleTotal = applePrice * appleKg;
+            //bananaTotal = bananaPrice * bananaKg;
+            //orangeTotal = orangePrice * orangeKg;
+            //watermelonTotal = watermelonPrice * watermelonKg;
+            //melonTotal = melonPrice * melonKg;
+
+            
+            //Console.WriteLine("Product Received: Apple - " + "Price: " + applePrice + " - Kg " + appleKg + " - Total: " + appleTotal);
+            //Console.WriteLine("Product Received: Banana - " + "Price: " + bananaPrice + " - Kg " + bananaKg + " - Total: " + bananaTotal);
+            //Console.WriteLine("Product Received: Orange - " + "Price: " + orangePrice + " - Kg " + orangeKg + " - Total: " + orangeTotal);
+            //Console.WriteLine("Product Received: Watermelon - " + "Price: " + watermelonPrice + " - Kg " + watermelonKg + " - Total: " + watermelonTotal);
+            //Console.WriteLine("Product Received: Melon - " + "Price: " + melonPrice + " - Kg " + melonKg + " - Total: " + melonTotal);
+
+            //double totalPrice;
+            //totalPrice = appleTotal + bananaTotal + orangeTotal + watermelonTotal + melonTotal;
+            //Console.WriteLine("Total Price: " + totalPrice + " CH");
+
+
+            #endregion
+
+            #region char
+
+            char symbol;
+            symbol = 'A';
+            Console.WriteLine(symbol);
 
 
 
